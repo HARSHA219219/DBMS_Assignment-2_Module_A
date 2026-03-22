@@ -28,6 +28,8 @@ db_management_system/
 ├── Module_A_outputs/ # Graphviz visualization outputs
 │
 ├── report.ipynb # Main report (implementation + analysis) -- Main Report File
+├── test_bplustree.py # Test B+ Tree operations
+├── test_dbmanager.py # Test DB Manager functionality
 ├── test_performance.py # Run performance benchmarks
 
 ```
@@ -100,6 +102,14 @@ jupyter notebook
 ---
 
 ✅ Run Individual Test Files
+- Test B+ Tree
+```bash
+python test_bplustree.py
+```
+- Test DB Manager
+```bash
+python test_dbmanager.py
+```
 - Run Performance Analysis
 ```bash
 python test_performance.py
